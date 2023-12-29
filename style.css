@@ -338,20 +338,51 @@ section {
 .text-content p {
   font-size: 1.2em;
 }
-
-/* Features section styles */
+/* Custom Styles for Features Section */
 #features {
-  background-color: #eee;
-  padding: 80px 0;
+  background-color: #f8f8f8;
+  padding: 60px 0;
+}
+
+#features h2.ui.header {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#features i.circular.features.icon {
+  font-size: 3em; /* Adjust the icon size as needed */
+  color: #333; /* Adjust the icon color */
+}
+
+#features .ui.three.stackable.cards {
+  display: flex;
+  justify-content: space-around;
 }
 
 #features .card {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  width: 30%; /* Adjust the card width as needed */
 }
 
 #features .card:hover {
-  transform: scale(1.05);
+  transform: translateY(-5px);
+}
+
+#features .content.feature {
+  padding: 20px;
+}
+
+#features .header {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#features p {
+  color: #666;
 }
 
 /* Projects section styles */
@@ -369,86 +400,188 @@ section {
   transform: scale(1.05);
 }
 
-/* Skills section styles */
+
+
+/* Custom Styles for Skills Section */
 #skills {
-  background-color: #eee;
-  padding: 80px 0;
+  background-color: #1a1a1a; /* Darkest background color */
+  color: #fff; /* Text color */
+  padding: 60px 0; /* Adjust padding as needed */
 }
 
-#skills .card {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+#skills h2.ui.header {
+  color: #fff; /* Header text color */
 }
 
-#skills .card:hover {
-  transform: scale(1.05);
+#skills .ui.card.segment {
+  background-color: #333; /* Background color for skill segments */
+  color: #fff; /* Text color for skill segments */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Box shadow for skill segments */
 }
 
-/* About section styles */
+#skills .ui.card.segment .header {
+  color: #fff; /* Header text color for skill segments */
+}
+
+#skills .ui.list .item {
+  color: #ccc; /* Text color for skill items */
+}
+
+#skills .ui.list .item i {
+  color: #fff; /* Icon color for skill items */
+}
+
+#skills .ui.center.aligned.icon.header i.icon {
+  font-size: 3em; /* Adjust icon size */
+}
+
+#skills .ui.two.stackable.cards.segments {
+  display: flex;
+  justify-content: space-around;
+}
+
+#skills .ui.card.segment .content {
+  padding: 20px;
+}
+
+#skills .ui.card.segment ul.ui.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#skills .ui.card.segment ul.ui.list .item {
+  font-size: 1.2em; /* Adjust item font size */
+  margin-bottom: 10px;
+}
+
+#skills .ui.card.segment ul.ui.list .item i {
+  margin-right: 5px;
+}
+
+#skills .ui.card.segment ul.ui.list .item i.angle.right.icon {
+  color: #fff; /* Adjust icon color for list items */
+}
+/* Custom Styles for About Section */
 #about {
-  background-color: #fff;
-  padding: 80px 0;
+  background-color: #1a1a1a; /* Darkest background color */
+  color: #fff; /* Text color */
+  padding: 60px 0; /* Adjust padding as needed */
 }
 
-#about .about-image img {
-  width: 100%;
+#about h2.ui.header {
+  color: #fff; /* Header text color */
 }
 
-/* Contact section styles */
+#about .ui.card.segment {
+  background-color: #333; /* Background color for the about card segment */
+  color: #fff; /* Text color for the about card segment */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Box shadow for the about card segment */
+}
+
+#about .ui.list .item {
+  color: #ccc; /* Text color for list items */
+}
+
+#about .ui.list .item i {
+  color: #fff; /* Icon color for list items */
+}
+
+#about .ui.center.aligned.icon.header i.icon {
+  font-size: 3em; /* Adjust icon size */
+}
+
+#about .ui.card.segment .content {
+  padding: 20px;
+}
+
+#about .ui.card.segment ul.ui.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#about .ui.card.segment ul.ui.list .item {
+  font-size: 1.2em; /* Adjust item font size */
+  margin-bottom: 20px; /* Adjust margin between list items */
+}
+
+#about .ui.card.segment ul.ui.list .item i {
+  margin-right: 10px; /* Adjust margin between icon and text */
+}
+
+#about .ui.card.segment ul.ui.list .item i.icon {
+  font-size: 1.5em; /* Adjust icon size for list items */
+}
+/* Custom Styles for Contact Section */
 #contact {
-  background-color: #f4f4f4;
+  background-color: #1a1a1a; /* Darkest background color */
+  color: #fff; /* Text color */
+  padding: 60px 0; /* Adjust padding as needed */
 }
 
-#contact .column {
-  margin-bottom: 30px;
+#contact h2.ui.header {
+  color: #fff; /* Header text color */
+}
+
+#contact .ui.card.segment {
+  background-color: #333; /* Background color for the contact card segment */
+  color: #fff; /* Text color for the contact card segment */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Box shadow for the contact card segment */
+}
+
+#contact .ui.list .item {
+  color: #ccc; /* Text color for list items */
+}
+
+#contact .ui.list .item i {
+  color: #fff; /* Icon color for list items */
+}
+
+#contact .ui.center.aligned.icon.header i.icon {
+  font-size: 3em; /* Adjust icon size */
+}
+
+#contact .ui.card.segment .content {
+  padding: 20px;
 }
 
 #contact form {
-  max-width: 400px;
+  max-width: 400px; /* Adjust form width as needed */
+  margin: 0 auto;
 }
 
-#contact button {
-  background-color: #4caf50;
-  color: #fff;
-  transition: background-color 0.3s ease;
+#contact form label {
+  color: #fff; /* Label text color */
 }
 
-#contact button:hover {
-  background-color: #45a049;
+#contact form input,
+#contact form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-#contact .social-links {
-  margin-top: 20px;
+#contact form button.ui.button.primary {
+  background-color: #4CAF50; /* Primary button background color */
+  color: #fff; /* Primary button text color */
 }
 
-#contact .social-links a {
-  margin-right: 10px;
+#contact form button.ui.button.primary:hover {
+  background-color: #45a049; /* Primary button hover background color */
 }
 
-#contact .social-links .button {
+#contact #map {
+  /* Style for the map container, customize as needed */
+  height: 200px;
   background-color: #333;
   color: #fff;
+  text-align: center;
+  line-height: 200px;
+  font-size: 1.5em;
 }
 
-#contact .social-links .button:hover {
-  background-color: #555;
-}
-
-#contact a {
-  color: #4caf50;
-}
-
-#contact a:hover {
-  color: #45a049;
-}
-
-#contact #openMap {
-  background-color: #555;
-  color: #fff;
-}
-
-#contact #openMap:hover {
-  background-color: #777;
+#contact p {
+  color: #ccc; /* Text color for contact details */
 }
 
 /* Sidebar Styles */
