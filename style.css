@@ -1,0 +1,286 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* Custom Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+background-color: #0a0a0a; /* Dark background color */
+color: #fff; /* Text color */
+}
+
+.ui.inverted.large.menu {
+background-color: #0a0a0a;
+}
+
+.ui.inverted.large.menu a.item {
+color: white;
+}
+
+
+/* Hero Styles */
+.hero {
+background: url('image.jpeg') center/cover no-repeat; /* Replace 'hero_background.jpg' with your actual image */
+color: #fff; /* Text color on the hero background */
+text-align: center;
+padding: 150px 20px; /* Adjust the padding as needed */
+position: relative;
+overflow: hidden;
+}
+
+.hero-overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.5em;
+margin-bottom: 40px;
+}
+
+.hero button {
+background-color: #2185d0; /* Primary color for the button */
+color: #fff; /* Text color for the button */
+font-size: 1.2em;
+padding: 15px 30px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease; /* Smooth transition for button color */
+}
+
+.hero button:hover {
+background-color: #16527a; /* Darker shade on hover */
+}
+
+
+
+/* Custom Section Styles */
+.custom-section {
+padding: 60px 0; /* Adjust the padding as needed */
+}
+
+/* Section Title Styles */
+.custom-section h2.ui.header {
+font-size: 2.0em;
+margin-bottom: 20px;
+color: #333; /* Adjust the color as needed */
+}
+
+/* Content Styles */
+.custom-section p {
+font-size: 1.2em;
+line-height: 1.6;
+color: #555; /* Adjust the color as needed */
+}
+
+/* Divider Styles */
+.custom-section .ui.section.divider {
+margin: 40px 0;
+}
+
+
+
+/* Image Owner Styles */
+.custom-section .ui.grid .four.wide.column p {
+font-size: 1em;
+color: #777; /* Adjust the color as needed */
+}
+
+/* Button Styles */
+.custom-section .ui.primary.button {
+background-color: #2185d0; /* Primary color for the button */
+color: #fff; /* Text color for the button */
+}
+
+/* Footer Styles */
+.ui.inverted.vertical.footer.segment {
+padding: 20px 0;
+background-color: #333; /* Background color for the footer */
+color: #fff; /* Text color for the footer */
+}
+
+.ui.inverted.vertical.footer.segment .ui.horizontal.inverted.small.divided.link.list {
+font-size: 0.9em;
+}
+
+.ui.inverted.vertical.footer.segment .ui.inverted.section.divider {
+margin: 20px 0;
+}
+
+
+
+
+.scroll-menu {
+white-space: nowrap; /* Prevent items from wrapping to the next line */
+overflow-x: auto;   /* Enable horizontal scrolling */
+-webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS devices */
+display: flex; /* Use flex display to ensure items stay in a row */
+}
+
+.scroll-menu a.item {
+margin-right: 20px;   /* Adjust spacing between items */
+}
+
+/* Optional: Add padding to the container to create some space */
+.ui.container {
+padding-bottom: 20px;
+}
+
+
+/* Custom Section Styles */
+.custom-section {
+padding: 60px 0;
+background-color: #f9f9f9;
+border-radius: 10px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+margin-bottom: 40px;
+}
+
+.custom-section h2.ui.header {
+color: #333;
+}
+
+.custom-section p.ui.description {
+color: #666;
+}
+
+.custom-section .ui.sub.header {
+color: #888;
+}
+
+.custom-section img.ui.fluid.image {
+border-radius: 8px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section Styles */
+#contact-section .ui.container {
+text-align: center;
+}
+
+#contact-section h2.ui.header {
+color: #333;
+}
+
+#contact-section p.ui.description {
+color: #666;
+}
+
+#contact-section .ui.sub.header {
+color: #888;
+}
+
+#contact-section .ui.form {
+margin-top: 20px;
+}
+
+#contact-section .ui.button.primary {
+background-color: #2185d0;
+color: #fff;
+}
+/* About Section Styles */
+#about-section .ui.container {
+text-align: center;
+}
+
+#about-section h2.ui.header {
+color: #333;
+}
+
+#about-section p {
+color: #666;
+margin-bottom: 20px;
+}
+
+/* Mission and Vision Statement Styles */
+#about-section .ui.mission-statement,
+#about-section .ui.vision-statement {
+margin-top: 40px;
+}
+
+#about-section h3.ui.sub.header {
+color: #555;
+}
+
+#about-section .ui.mission-statement p,
+#about-section .ui.vision-statement p {
+color: #777;
+}
+
+
+
+.ui.header {
+display: inline-block;
+background: rgba(204, 204, 255, 0.8); /* Soft Lavender */
+padding: 8px; /* Add padding for better visual appearance */
+border-radius: 5px; /* Optional: Add border-radius for a softer look */
+color: #333; /* Set text color for better readability */
+}
+
+button {
+background-color: #2185d0; /* Default button color */
+color: #fff; /* Default text color */
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+background-color: #1678c2; /* Hovered button color */
+color: #fff; /* Hovered text color */
+}
+
+/* Apply margin to all sections except the first one */
+.ui.vertical.segment.custom-section:not(:first-child) {
+margin-top: 70px; /* Adjust the value based on the desired gap size */
+}
+/* Custom Style for Donate Button */
+.donate-button {
+display: inline-block;
+background-color: #2185d0; /* Primary color for the button */
+color: #fff; /* Text color for the button */
+font-size: 1.2em;
+padding: 15px 30px;
+text-decoration: none; /* Remove default underline on links */
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s, color 0.3s;
+}
+
+.donate-button:hover {
+background-color: #1678c2; /* Hovered button color */
+color: #fff; /* Hovered text color */
+}
+
+/* Custom Styles for Hero Text */
+.hero-text h1,
+.hero-text p {
+font-size: 2.5em; /* Adjust the size based on your preference */
+font-family: 'Your Custom Font', sans-serif; /* Replace 'Your Custom Font' with your preferred font */
+font-style: italic; /* Italicize the text */
+transform: skew(-15deg, 0); /* Add a slanted effect */
+}
+
+.hero-text p {
+font-size: 1.2em; /* Adjust the size based on your preference */
+}
+
+/* Button Styles */
+.donate-button {
+/* Your existing button styles */
+}
